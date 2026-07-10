@@ -1,13 +1,18 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Bank_BRI_logo_2020.svg/256px-Bank_BRI_logo_2020.svg.png" alt="BRI Logo" width="80" />
+  <svg width="80" height="48" viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="28" height="36" rx="4" fill="#00247d"/>
+    <text x="5" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="24" fill="#fff">B</text>
+    <rect x="32" y="0" width="28" height="36" rx="4" fill="#00247d"/>
+    <text x="38" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="24" fill="#fff">R</text>
+    <rect x="64" y="0" width="28" height="36" rx="4" fill="#00247d"/>
+    <text x="71" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="24" fill="#fff">I</text>
+  </svg>
 </p>
 
 <h1 align="center">BRI Internet Banking</h1>
 
 <p align="center">
-  <strong>Modern Banking Portal Interface</strong>
-  <br />
-  Premium UI · Real-time Validation · Secure Session
+  <strong>✦ welcome to tracking dev phishing page bri ✦</strong>
 </p>
 
 <p align="center">
