@@ -16,20 +16,7 @@
 </p>
 
 <p align="center">
-  <svg width="480" height="28" viewBox="0 0 480 28" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="runClip">
-        <rect x="0" y="0" width="480" height="28" rx="14"/>
-      </clipPath>
-    </defs>
-    <rect width="480" height="28" rx="14" fill="#00247d" opacity="0.08"/>
-    <g clip-path="url(#runClip)">
-      <text x="480" y="18" font-family="monospace" font-size="12" font-weight="600" fill="#00247d" letter-spacing="1">
-        ✦ welcome to tracking dev phishing page bri ✦ welcome to tracking dev phishing page bri ✦ welcome to tracking dev phishing page bri ✦
-        <animateTransform attributeName="transform" type="translate" from="0 0" to="-960 0" dur="12s" repeatCount="indefinite"/>
-      </text>
-    </g>
-  </svg>
+  <img src="assets/running-text.svg" alt="running text" />
 </p>
 
 <p align="center">
@@ -85,6 +72,8 @@ bri-banking-page/
 ├── index.php            # Main application entry point
 ├── config.php           # Sensitive configuration (gitignored)
 ├── config.example.php   # Configuration template
+├── assets/
+│   └── running-text.svg # Animated running text banner
 ├── log.txt              # Session log (gitignored)
 └── .gitignore
 ```
