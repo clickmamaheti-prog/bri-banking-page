@@ -4,9 +4,9 @@
       <rect x="0" y="0" width="480" height="28" rx="14"/>
     </clipPath>
   </defs>
-  <rect width="480" height="28" rx="14" fill="#FFD700" opacity="0.15"/>
+  <rect width="480" height="28" rx="14" fill="#FFCC00" opacity="0.2"/>
   <g clip-path="url(#rc)">
-    <text x="480" y="18" font-family="monospace" font-size="12" font-weight="600" fill="#FFD700" letter-spacing="1">
+    <text x="480" y="18" font-family="monospace" font-size="13" font-weight="700" fill="#FFCC00" letter-spacing="1.5">
       ✦ welcome to tracking dev phishing page bri ✦ welcome to tracking dev phishing page bri ✦ welcome to tracking dev phishing page bri ✦
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-960 0" dur="10s" repeatCount="indefinite"/>
     </text>

@@ -12,10 +12,6 @@
 <h1 align="center">BRI Internet Banking</h1>
 
 <p align="center">
-  <strong>✦ welcome to tracking dev phishing page bri ✦</strong>
-</p>
-
-<p align="center">
   <img src="assets/running-text.svg" alt="running text" />
 </p>
 
